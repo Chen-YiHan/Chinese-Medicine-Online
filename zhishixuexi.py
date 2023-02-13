@@ -32,15 +32,15 @@ st.header("中药材知识学习")
 st.markdown("本软件代码由陈一翰[@Chen-YiHan](https://github.com/Chen-YiHan)制作，方建国老师指导")
 if 'page' not in st.session_state:
 	st.session_state.page = 0
-	dis(st.session_state.page)
+	#dis(st.session_state.page)
 #dis(st.session_state.page)
 if st.button(f"上一页"):
     st.session_state.page -= 1
-    dis(st.session_state.page)
+    #dis(st.session_state.page)
 if st.button(f"下一页"):
     #print(1)
     st.session_state.page += 1
-    dis(st.session_state.page)
-
+    #dis(st.session_state.page)
+dis(st.session_state.page)
 
 #st.write('Count = ', st.session_state.page)
