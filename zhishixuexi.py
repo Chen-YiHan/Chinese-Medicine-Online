@@ -29,7 +29,7 @@ def dis(page):
 
 st.header("中药材知识学习")
 "*包罗8000余种中药材的知识宝库，附图数百张倾力之作*"
-st.markdown("本软件代码由陈一翰[@Chen-YiHan](https://github.com/Chen-YiHan)制作，方建国老师指导")
+st.markdown("本软件代码由陈一翰[@Chen-YiHan](https://github.com/Chen-YiHan)制作，方利国老师指导")
 if 'page' not in st.session_state:
 	st.session_state.page = 0
 	#dis(st.session_state.page)

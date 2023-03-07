@@ -32,7 +32,7 @@ elif add_selectbox == "100题":
 st.header("中药材知识考试")
 st.subheader("点击左上角的→可选择题目数量")
 
-st.markdown("本软件代码由陈一翰[@Chen-YiHan](https://github.com/Chen-YiHan)制作，方建国老师指导")
+st.markdown("本软件代码由陈一翰[@Chen-YiHan](https://github.com/Chen-YiHan)制作，方利国老师指导")
 name = st.text_input("请输入您的姓名", "张三")
 sel_no = st.number_input(
     "选择一个试卷序列号", value=3, min_value=0, max_value=65535, step=1, format="%i"
